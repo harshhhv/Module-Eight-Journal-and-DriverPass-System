@@ -21,3 +21,19 @@ I interpreted the user’s needs by carefully analyzing the interview transcript
 # My Approach to Software Design
 
 When designing software, I start by understanding the problem from the user’s perspective before thinking about technical solutions. I prefer a blended modeling approach, using both process models to understand workflows and object models to define structure and responsibilities. In the future, I would continue using techniques such as stakeholder interviews, use case analysis, iterative refinement, and diagram validation to ensure accuracy. Breaking complex systems into smaller, manageable components and validating assumptions early are strategies I plan to carry forward into future projects.
+
+# How do I interpret user needs and incorporate them into a program?
+
+I begin by analyzing requirements carefully and identifying constraints, edge cases, and expected behaviors. Rather than coding immediately, I break each requirement into measurable conditions that can be validated through testing. For example, when a requirement stated that an appointment date could not be in the past, I converted that into a specific validation rule and corresponding unit test.
+
+This process ensures that user expectations are not only understood conceptually but are implemented concretely in code. Requirement traceability—mapping each requirement to a test case—helps guarantee alignment between what the user wants and what the system delivers.
+
+# How do I approach designing software?
+
+My approach to software design is structured and iterative. I start by defining clear responsibilities for each class, ensuring separation of concerns between data models and service logic. I then implement validation rules directly within constructors and setters to maintain data integrity.
+
+Testing plays a central role in my design process. Writing tests early helps shape cleaner interfaces and reduces ambiguity. I adopt a cautious and defensive mindset, anticipating potential misuse or invalid input. By combining modular design, in-memory data structures (where appropriate), and automated unit testing, I create software that is maintainable, scalable, and reliable.
+
+These projects strengthened my understanding of unit testing, automation, and quality assurance principles. They also reinforced the importance of disciplined development practices. Writing comprehensive tests, validating edge cases, and maintaining alignment with requirements are not optional steps—they are essential components of professional software engineering.
+
+As I continue building my portfolio, I aim to expand these practices into larger systems, incorporate integration and automation pipelines, and continuously refine my approach to writing clean, testable code.
